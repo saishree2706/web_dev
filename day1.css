@@ -1,36 +1,24 @@
 body{
-    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
 }
 .box{
     height: 400px;
     width: 800px;
-    background-color: goldenrod;
-    margin-top: 100px;
-    margin-left: 230px;
-    border: 10px dotted black;
-    box-shadow: 0 0 5px 20px goldenrod;
+    background-color: #dda0dd;
+    margin-top: 150px;
+    margin-left: 260px;
+    border: 1px dotted black;
+    box-shadow: 0 0 8px 25px #fff5ee;
     opacity: 0.8;
-    border-radius: 10px;
+    border-radius: 50px;
 }
-.tag1{
-    height: 400px;
-    width: 50px;
-    background-color: darkred;
-    margin-top: -570px;
-    margin-left: 300px;
-    transform: skewY(-45deg)
-}
-.tag2{
-    height: 400px;
-    width: 50px;
-    background-color: darkred;
-    margin-top: -400px;
-    margin-left: 350px;
-    transform: skewY(45deg)
-}
+
 .box h1{
-    margin-left: 280px;
+    margin-left: 70px;
     font-size: 60px;
+    
     text-transform: uppercase;
-    font-family: 'Pangolin', cursive;
+    font-family: 'Architects Daughter', cursive;
+    color: #191970;
 }
